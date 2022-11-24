@@ -1,14 +1,14 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
-import Chat from '../components/Chat';
+import React from 'react'
+import Sidebar from '../components/Sidebar'
+import Chat from '../components/Chat'
 
-function Home() {
+const Home = () => {
   return (
-    <div className="home">
+    <div className='home'>
       <div className="container">
-        <Sidebar />
-        <Chat />
-      </div>     
+        <Sidebar/>
+        <Chat/>
+      </div>
     </div>
   )
 }
